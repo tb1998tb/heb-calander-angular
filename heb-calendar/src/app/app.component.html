@@ -1,0 +1,5 @@
+<div class="wrapper">
+  <button (click)="showSpecial=!showSpecial">{{showSpecial?'הצג הכל':'הצג ימים מיוחדים'}}</button>
+
+  <full-calendar #calendar [events]="hebCalEvents|specialDays:showSpecial" (dateClick)="handleDateClick($event)" [defaultView]="defaultView" [plugins]="calendarPlugins"></full-calendar>
+</div>
