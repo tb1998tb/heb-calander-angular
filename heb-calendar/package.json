@@ -28,7 +28,7 @@
     "angular2-fullcalendar": "^1.0.19",
     "angular2-moment": "^1.9.0",
     "fullcalendar": "^3.10.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "rxjs": "~6.4.0",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"
